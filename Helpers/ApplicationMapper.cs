@@ -9,6 +9,7 @@ namespace BookStore.Helpers
         public ApplicationMapper()
         {
             CreateMap<Book, BookModel>().ReverseMap();
+            CreateMap<User, UserModel>().ReverseMap();
         }
     }
 }

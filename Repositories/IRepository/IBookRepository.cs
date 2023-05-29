@@ -1,6 +1,6 @@
 ﻿using BookStore.Models;
 
-namespace BookStore.Repositories
+namespace BookStore.Repositories.IRepository
 {
     public interface IBookRepository
     {

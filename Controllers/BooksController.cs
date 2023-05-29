@@ -1,6 +1,6 @@
 ﻿using BookStore.Exceptions;
 using BookStore.Models;
-using BookStore.Repositories;
+using BookStore.Repositories.IRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,5 +1,6 @@
 using BookStore.Data;
 using BookStore.Repositories;
+using BookStore.Repositories.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,7 @@ builder.Services.AddDbContext<BookStoreContext>(opt =>
 builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 

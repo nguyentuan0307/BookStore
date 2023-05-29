@@ -10,7 +10,8 @@ namespace BookStore.Data
         }
 
         #region DbSet
-        public DbSet<Book> Books { get; set;}
+        public DbSet<Book> Books { get; set; }
+        public DbSet<User> Users { get; set; }
         #endregion
     }
 }

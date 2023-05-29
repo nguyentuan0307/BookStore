@@ -2,6 +2,7 @@
 using BookStore.Data;
 using BookStore.Exceptions;
 using BookStore.Models;
+using BookStore.Repositories.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Repositories
